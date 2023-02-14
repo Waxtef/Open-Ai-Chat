@@ -5,10 +5,18 @@
     <!--link rel="icon" type="image/svg+xml" href="/vite.svg" /-->
     <link rel="icon" type="image/svg+xml" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tool Talk ai</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Tool Talk - Your Chat Ai</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="chat_container"></div>
+
+      <form action="">
+        <textarea name="prompt" id="textbox" cols="1" rows="1" class="name" placeholder="What you thinking..."></textarea>
+        <button class="submit"><img src="assets/send.svg" alt=""></button>
+      </form>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
